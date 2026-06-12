@@ -1,0 +1,92 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+__pypackages__/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.zip
+.zip
+# Logs, tensorboard, checkpoints
+logs/
+runs/
+tensorboard/
+events.out.tfevents.*
+checkpoints/
+
+# ML / PyTorch model files
+*.pt
+model.last.pth
+
+# Large dataset directories (keep datasets out of git)
+Train/
+train/
+Validation/
+test/
+data/
+datasets/
+
+# Misc
+*.log
+*.sqlite3
+*.db
+
+# Secrets, keys, credentials
+.env
+*.pem
+*.key
+
+# Local VS Code settings
+.vscode/
+
+# Keep track of metrics or small CSVs in repo, but ignore large exported CSVs by pattern
+# *.csv

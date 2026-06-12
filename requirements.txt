@@ -1,0 +1,14 @@
+numpy
+pillow
+scikit-learn
+matplotlib
+streamlit
+tqdm
+watchdog
+tensorboard
+python-dotenv
+google-genai
+edge-tts
+torch>=2.0.0,<3.0
+torchvision>=0.15.0,<1.0
+torchaudio>=2.0.0,<3.0

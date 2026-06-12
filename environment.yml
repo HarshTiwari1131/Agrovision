@@ -1,0 +1,24 @@
+name: cropclass
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pillow
+  - scikit-learn
+  - matplotlib
+  - streamlit
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip:
+    - watchdog
+    - python-dotenv
+    - google-genai
+    - edge-tts
